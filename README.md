@@ -41,7 +41,7 @@ To see what tests are passing and why run: (Make sure your dev server is already
 Part of working on a high performing team is making sure that everyone is using consistent style guidelines. This test 
 uses ESLint and StyleLint to enforce rules outlined in .eslintrc and .stylelintrc. To check your styles against these guidelines run:
 - npm run lint:js
-- npm run lint:styles
+- npm run lint:style
 
 A passing assessment is when all cypress tests are passing and the lint commands return no errors. Reach out to the team if you need help to get there.
 
