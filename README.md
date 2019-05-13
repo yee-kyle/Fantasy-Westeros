@@ -16,7 +16,7 @@ Read all of the instructions for great success.
 
 ## Required User Stories
 - As a user when I navigate to '/' then I should see a home page with login and registration links.
-- As a user when I navigate to '/register' then I should a registration page with fields for (first_name, last_name, email, password, confirm_password)
+- As a user when I navigate to '/register' then I should see a registration page with fields for (first_name, last_name, email, password, confirm_password)
 - As a user I want to see my player roster after I create my account
 - As a user when I navigate to '/roster' then I should see the roster
 - As a user when I navigate to '/login' I should see a page where I can enter my email and password
