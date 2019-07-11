@@ -6,7 +6,7 @@ export const text = {
   greeting: 'Hogwart Quidditch Roster Manager',
 };
 
-const HomePage = () => (
+const RegisterPage = () => (
   <main className={styles.root}>
     <h1 className={styles.headline}>{text.headline}</h1>
     <section>
@@ -15,4 +15,4 @@ const HomePage = () => (
   </main>
 );
 
-export { HomePage };
+export { RegisterPage };
