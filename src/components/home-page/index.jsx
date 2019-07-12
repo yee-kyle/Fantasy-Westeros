@@ -1,17 +1,18 @@
 import React from 'react';
-import styles from './styles.css';
 
 export const text = {
-  headline: 'Fantasy Quidditch',
-  greeting: 'Hogwart Quidditch Roster Manager',
+  headline: 'Fantasy Westeros',
+  description: 'Manage your house with characters from Game of Thrones',
 };
 
 const HomePage = () => (
-  <main className={styles.root}>
-    <h1 className={styles.headline}>{text.headline}</h1>
-    <section>
-      <span className={styles.greeting}>{text.greeting}</span>
-    </section>
+  <main className="homepage">
+    <h1 className="headline">{text.headline}</h1>
+    <p className="description">{text.description}</p>
+    <div className="signinOptions">
+      <a className="registerButton" href="/register">Register</a>
+      <a className="loginButton" href="/login">Login</a>
+    </div>
   </main>
 );
 
