@@ -37,7 +37,7 @@ body {
   flex-direction: column;
 }
 
-.registerPage, .loginPage {
+.registerPage, .loginPage, .addPlayerPage, .rosterPage {
   align-items: center;
   background-color: rgba(238, 238, 238, 0.267);
   height: 100%;
@@ -70,7 +70,7 @@ body {
   margin-top: 10px;
 }
 
-.signinOptions {
+.signinOptions, .newPlayerButton {
   display: flex;
   flex-direction: column;
 }

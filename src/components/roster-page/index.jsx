@@ -31,6 +31,9 @@ export class RosterPage extends React.Component {
         <ul>
           {this.playerList}
         </ul>
+        <div className="newPlayerButton">
+          <a className="registerButton" href="/player/new">Add New Player</a>
+        </div>
       </main>
     )
   }
