@@ -8,6 +8,27 @@ body {
   color: rgb(247, 98, 61);
 }
 
+.emailField {
+  display: flex;
+  flex-direction: column;
+}
+
+.registerField {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+
+.registerInput {
+  border: 1px solid #999;
+}
+
+.registerLabel {
+  font-weight: 700;
+  color: #999;
+  text-transform: uppercase;
+}
+
 .homepage {
   align-items: center;
   background: url(./images/got_iron_throne.jpg) no-repeat center;
@@ -16,8 +37,20 @@ body {
   flex-direction: column;
 }
 
+.registerPage {
+  align-items: center;
+  background-color: rgba(238, 238, 238, 0.267);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
 .headline {
   color: red;
+}
+
+.inputFields {
+  margin-top: 50px;
 }
 
 .registerButton {
