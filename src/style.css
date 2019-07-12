@@ -70,6 +70,12 @@ body {
   margin-top: 10px;
 }
 
+.playerCard {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+}
+
 .signinOptions, .newPlayerButton {
   display: flex;
   flex-direction: column;

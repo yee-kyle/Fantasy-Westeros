@@ -1,4 +1,5 @@
 import React from 'react';
+import { PlayerCard } from '../player-card';
 
 export class RosterPage extends React.Component {
   constructor(props) {
@@ -24,13 +25,21 @@ export class RosterPage extends React.Component {
   }
 
   render() {
-    this.playerList = this.state.players.map((player, key) => <li key={player.id}>{player.first_name}</li>);
+    const playerList = this.state.players.map((player) => {
+      return <PlayerCard
+        id={player.id}
+        first_name={player.first_name}
+        last_name={player.last_name}
+        rating={player.rating}
+        handedness={player.handedness}
+        />
+    });
     return (
       <main className="rosterPage">
         <h1>My Roster</h1>
-        <ul>
-          {this.playerList}
-        </ul>
+        <div className="players">
+          {playerList}
+        </div>
         <div className="newPlayerButton">
           <a className="registerButton" href="/player/new">Add New Player</a>
         </div>

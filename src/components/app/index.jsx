@@ -7,7 +7,7 @@ import { LoginPage } from '../login-page';
 import { RegisterPage } from '../register-page';
 import { RosterPage } from '../roster-page';
 
-const App = () => (
+export const App = () => (
   <BrowserRouter>
     <Switch>
       <Route component={AddPlayerPage} exact path={addPlayerPath} />
@@ -18,5 +18,3 @@ const App = () => (
     </Switch>
   </BrowserRouter>
 );
-
-export { App };
