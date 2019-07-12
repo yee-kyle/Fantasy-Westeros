@@ -20,24 +20,27 @@ body {
 }
 
 .registerInput {
-  border: 1px solid #999;
+  border: 1px solid #999999;
 }
 
 .registerLabel {
   font-weight: 700;
-  color: #999;
+  color: #999999;
   text-transform: uppercase;
 }
 
 .homepage {
   align-items: center;
-  background: url(./images/got_iron_throne.jpg) no-repeat center;
+  background: url('./images/got_iron_throne.jpg') no-repeat center;
   height: 100%;
   display: flex;
   flex-direction: column;
 }
 
-.registerPage, .loginPage, .addPlayerPage, .rosterPage {
+.registerPage,
+.loginPage,
+.addPlayerPage,
+.rosterPage {
   align-items: center;
   background-color: rgba(238, 238, 238, 0.267);
   height: 100%;
@@ -54,15 +57,16 @@ body {
 }
 
 .registerButton {
-  background-color: #f44336;
+  background-color: #F44336;
   color: white;
   padding: 14px 25px;
   text-align: center;
   text-decoration: none;
 }
 
-.loginButton {
-  background-color: #f44336;
+.loginButton,
+.delete {
+  background-color: #F44336;
   color: white;
   padding: 14px 25px;
   text-align: center;
@@ -76,7 +80,8 @@ body {
   margin-bottom: 20px;
 }
 
-.signinOptions, .newPlayerButton {
+.signinOptions,
+.newPlayerButton {
   display: flex;
   flex-direction: column;
 }

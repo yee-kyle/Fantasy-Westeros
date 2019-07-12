@@ -21,7 +21,6 @@ export class LoginPage extends React.Component {
         if ( res.status === 200 ) {
           window.location.href = 'http://localhost:3000/roster';
         }
-        res.json()
       })
       .catch(err => console.error(err));
   }

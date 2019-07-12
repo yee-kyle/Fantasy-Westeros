@@ -7,7 +7,7 @@ import { LoginPage } from '../login-page';
 import { RegisterPage } from '../register-page';
 import { RosterPage } from '../roster-page';
 
-export const App = () => (
+const App = () => (
   <BrowserRouter>
     <Switch>
       <Route component={AddPlayerPage} exact path={addPlayerPath} />
@@ -18,3 +18,5 @@ export const App = () => (
     </Switch>
   </BrowserRouter>
 );
+
+export default App;

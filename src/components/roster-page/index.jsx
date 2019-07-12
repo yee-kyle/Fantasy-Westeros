@@ -1,5 +1,5 @@
 import React from 'react';
-import { PlayerCard } from '../player-card';
+import PlayerCard from '../player-card';
 
 export class RosterPage extends React.Component {
   constructor(props) {
@@ -17,7 +17,7 @@ export class RosterPage extends React.Component {
     window
       .fetch('https://players-api.developer.alchemy.codes/api/players', {
         method: 'GET',
-        headers: {'Content-Type': 'application/json'},
+        headers: { 'Content-Type': 'application/json' },
       })
       .then(res => res.json())
       .then(data => this.setState({ players: data.players }))
@@ -28,11 +28,11 @@ export class RosterPage extends React.Component {
     const playerList = this.state.players.map((player) => {
       return <PlayerCard
         id={player.id}
-        first_name={player.first_name}
-        last_name={player.last_name}
+        firstName={player.first_name}
+        lastName={player.last_name}
         rating={player.rating}
         handedness={player.handedness}
-        />
+      />
     });
     return (
       <main className="rosterPage">
