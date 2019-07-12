@@ -1,0 +1,87 @@
+body {
+  margin: 0;
+}
+
+.description {
+  background-color: rgba(23, 182, 2, 0.24);
+  padding: 14px 25px;
+  color: rgb(247, 98, 61);
+}
+
+.emailField {
+  display: flex;
+  flex-direction: column;
+}
+
+.registerField {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+
+.registerInput {
+  border: 1px solid #999999;
+}
+
+.registerLabel {
+  font-weight: 700;
+  color: #999999;
+  text-transform: uppercase;
+}
+
+.homepage {
+  align-items: center;
+  background: url('./images/got_iron_throne.jpg') no-repeat center;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.registerPage,
+.loginPage,
+.addPlayerPage,
+.rosterPage {
+  align-items: center;
+  background-color: rgba(238, 238, 238, 0.267);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.headline {
+  color: red;
+}
+
+.inputFields {
+  margin-top: 50px;
+}
+
+.registerButton {
+  background-color: #F44336;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.loginButton,
+.delete {
+  background-color: #F44336;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  margin-top: 10px;
+}
+
+.playerCard {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+}
+
+.signinOptions,
+.newPlayerButton {
+  display: flex;
+  flex-direction: column;
+}
