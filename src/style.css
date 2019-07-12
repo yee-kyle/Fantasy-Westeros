@@ -37,7 +37,7 @@ body {
   flex-direction: column;
 }
 
-.registerPage {
+.registerPage, .loginPage {
   align-items: center;
   background-color: rgba(238, 238, 238, 0.267);
   height: 100%;

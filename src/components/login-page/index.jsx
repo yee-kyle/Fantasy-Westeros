@@ -28,7 +28,7 @@ export class LoginPage extends React.Component {
 
   render() {
     return (
-      <main className="registerPage">
+      <main className="loginPage">
         <form onSubmit={this.handleSubmit}>
           <fieldset className="inputFields">
             <div className="registerField">
